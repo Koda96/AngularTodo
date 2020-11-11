@@ -26,7 +26,12 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "src/assets/app.js",
+              "src/assets/p5.js",
+              "src/assets/p5.sound.js",
+              "src/assets/p5.speech.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "TrainerBot-LABIV"
+    }
+  },
+  "defaultProject": "TrainerBot-LABIV",
+  "cli": {
+    "analytics": "f60e6ad4-9e7b-4f6b-b037-d3cced8e1d65"
+  }
 }
